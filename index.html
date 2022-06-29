@@ -33,12 +33,12 @@
             width: 57.6rem;
         }
 
-        .places {
+        section {
             float: left;
             width: 39.6rem;
         }
 
-        .place {
+        article {
             background-color: #FFF;
             border-color: #CCC #999 #999 #CCC;
             border: 0.06rem solid #CCC;
@@ -46,17 +46,17 @@
             padding: 0.6rem;
         }
 
-        .place h2 {
+        article h2 {
             border-bottom: 0.06rem dashed #7E9F19;
             margin: 0;
         }
 
-        .place a {
+        article a {
             color: #2C88A7;
             font-weight: bold;
         }
 
-        .place img {
+        article img {
             border: .06rem solid #7E9F19;
             float: left;
             margin: .6rem .6rem 0 0;
@@ -67,7 +67,7 @@
             clear: both;
         }
 
-        .sidenote {
+        aside {
             background-color: #FFFBE4;
             border: .06rem solid #C9BC8F;
             float: right;
@@ -75,16 +75,16 @@
             width: 15.6rem;
         }
 
-        .sidenote h3 {
+        aside h3 {
             font-size: .84rem;
             margin-top: 0;
         }
 
-        .sidenote ol {
+        aside ol {
             font-size: .72rem;
         }
 
-        .footer {
+        footer {
             font-size: 0.72rem;
             text-align: center;
         }
@@ -94,8 +94,8 @@
 <body>
     <div class="container">
         <h1><a href="">O que eu mais gosto em João Pessoa</a></h2>
-        <div class="places">    
-            <div class="place">    
+        <section>    
+            <article>    
                 <h2>Passear na orla do Cabo Branco/Tambaú</h2>
                 <img src="https://www.voltologo.net/wp-content/uploads/2019/10/bairros-joao-pessoa.jpg.webp" alt="" />
                 <p>
@@ -108,8 +108,8 @@
                     <a href="https://guia.melhoresdestinos.com.br/praia-de-cabo-branco-109-2225-l.html">Saiba mais</a>
                 </p>
                 <div class="clear"></div>
-            </div>
-            <div class="place">
+            </article>
+            <article>
                 <h2>O Parque Solon de Lucena</h2>
                 <img src="http://antigo.joaopessoa.pb.gov.br/portal/wp-content/uploads/2011/04/Entrega_Lagoa_RafaelPassos-721.jpg" alt="" />
                 <p>
@@ -123,8 +123,8 @@
                     <a href="https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/pracas-e-parques/parque-da-lagoa/">Saiba mais</a>
                 </p>
                 <div class="clear"></div>
-            </div>
-            <div class="place">
+            </article>
+            <article>
                 <h2>O Parque Arruda Câmara - Bica</h2>
                 <img src="https://turismoemfoco.com.br/v1/wp-content/uploads/2021/02/Bica24.jpg" alt="" />
                 <p>
@@ -138,9 +138,9 @@
                     <a href="https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/pracas-e-parques/parque-arruda-camara/">Saiba mais</a>
                 </p>
                 <div class="clear"></div>
-            </div>
-        </div>
-        <div class="sidenote">
+            </article>
+        </section>
+        <aside>
             <h3>E existem muitos outros lugares interessantes na cidade...</h3>
             <ol>
                 <li>Hotel Tambaú</li>
@@ -149,10 +149,10 @@
                 <li>As belas praias da zona sul</li>
                 <li>E mais!</li>
             </ol>
-        </div>
-        <div class="footer clear">
+        </aside>
+        <footer class="clear">
             <p>Parte do livro "HTML5 e CSS3: Domine a web do futuro."</p>
-        </div>
+        </footer>
     </div>
 </body>
 </html>
